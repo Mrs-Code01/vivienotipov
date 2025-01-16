@@ -1,0 +1,90 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/images/viv7.jpg');
+  width: 100%;
+  min-height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(0);
+}
+
+.topContent {
+  text-align: center;
+  width: 60%;
+  margin: 60px auto;
+}
+
+.topContent>div:nth-of-type(1) {
+  margin-bottom: 60px;
+}
+
+.topContent h2 {
+  font-size: var(--header-2);
+}
+
+.topContent p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.team {
+  width: var(--container-width);
+  margin: 0 auto 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team>div {
+  width: 31%;
+}
+
+.team>div img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+}
+
+.teamContent>h3 {
+  font-size: var(--header-3);
+}
+
+.teamContent>h4 {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.teamContent p {
+  font-size: 1.5rem;
+  line-height: var(--p-line-height);
+}
+
+.teamContent strong {
+  font-size: 1.5rem;
+}
+
+.teamContent>* {
+  margin-bottom: 12px;
+}
+
+.teamContent>div h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.team1 a {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 12px 0 17px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

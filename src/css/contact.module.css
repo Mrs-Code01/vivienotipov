@@ -1,0 +1,132 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/viv7.jpg');
+  width: 100%;
+  min-height: 320px;
+  padding: 0 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 5rem;
+}
+
+.formContainer {
+  width: 65%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: var(--border-radius);
+}
+
+.formContainer>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer>div h2 {
+  font-size: var(--header-2);
+}
+
+.line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 30px;
+}
+
+.formContainer form {
+  border-radius: var(--border-radius);
+  border: 1px solid black;
+  background-color: #fff;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formContainer form>div {
+  width: 48%;
+  margin-bottom: 15px;
+
+}
+
+.formContainer form>div label {
+  display: block;
+  font-size: var(--small-text);
+  margin-bottom: 6px
+}
+
+.formContainer form>div input {
+  width: 100%;
+  height: 45px;
+  font-size: var(--small-text);
+  border-radius: var(--border-radius);
+  padding: 0 10px;
+  border: 2px solid var(--secondary-color);
+  outline: 0;
+}
+
+.formContainer form>div select {
+  border-radius: var(--border-radius);
+  width: 100%;
+  height: 45px;
+  font-size: var(--small-text);
+  padding: 0 10px;
+  border: 2px solid var(--secondary-color);
+  outline: 0;
+}
+
+.formContainer form>div option {
+  border-radius: var(--border-radius);
+  width: 100%;
+  font-size: var(--small-text);
+  padding: 30px 10px;
+  background-color: var(--accent-color);
+  display: block;
+}
+
+
+.formContainer form textarea {
+  border: 2px solid var(--secondary-color);
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 180px;
+  font-size: var(--small-text);
+  border-radius: var(--border-radius);
+}
+
+.formContainer form p {
+  font-size: var(--small-text);
+  border-radius: var(--border-radius);
+  padding: 15px 0;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.formContainer form button {
+  width: 100%;
+  font-size: var(--small-text);
+  border-radius: var(--border-radius);
+  height: 45px;
+  background-color: var(--primary-color);
+  border: 0;
+}

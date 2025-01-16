@@ -1,0 +1,221 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/viv8.jpg');
+  width: 100%;
+  min-height: 300px;
+  padding: 0 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 4.3rem;
+  text-align: center;
+}
+
+.ceo {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ceo img {
+  width: 50%;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+}
+
+.ceoContent {
+  width: 45%;
+}
+
+.ceoContent h4 {
+  font-size: var(--small-text);
+}
+
+.ceoContent h2 {
+  font-size: var(--header-2);
+  margin: 7px 0;
+}
+
+.ceoContent p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.education {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.education h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.education li {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.education li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.education li::marker {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.education .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+.intRecog {
+  background-color: black;
+  padding: 60px 30%;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.intRecog h3 {
+  color: var(--primary-color);
+  font-size: var(--header-3);
+}
+
+.intRecog h2 {
+  font-size: var(--header-2);
+  margin: 10px 0 20px;
+}
+
+.intRecog p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.recog {
+  background-color: var(--secondary-color);
+  padding: 60px 30%;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.recog h2 {
+  font-size: var(--header-2);
+  margin: 0 0 20px;
+}
+
+.recog p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.recog i {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.skills {
+  width: var(--container-width);
+  margin: 0 auto 60px;
+}
+
+.skills h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.skills li,
+.skills strong {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.skills li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.skills li::marker {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.skills .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+.experience {
+  width: var(--container-width);
+  margin: 0 auto 60px;
+}
+
+.experience h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.experience li {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.experience li {
+  margin-bottom: 20px;
+}
+
+.experience li::marker {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.experience .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+.experience>ul>li {
+  font-weight: 600;
+}
+
+.publication {
+  background-color: black;
+  padding: 60px 25%;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.publication h2 {
+  font-size: var(--header-2);
+  margin: 0 0 20px;
+  color: var(--primary-color);
+}
+
+.publication p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+  letter-spacing: 1.2px;
+}

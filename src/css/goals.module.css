@@ -1,0 +1,73 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/24.jpg');
+  width: 100%;
+  min-height: 600px;
+  padding: 0 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.mainContainer {
+  width: var(--container-width);
+  margin: 0 auto;
+  position: relative;
+  top: -130px;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 60px 50px;
+}
+
+.topContent {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.topContent img {
+  width: 70px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-right: 40px;
+}
+
+.topContent span {
+  background-color: rgb(210, 0, 0);
+  padding: 5px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1.1px;
+  margin-bottom: 5px;
+}
+
+.topContent h2 {
+  font-size: var(--header-3);
+}
+
+.listedGoals>div:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.listedGoals h2 {
+  font-size: var(--header-3);
+  color: grey;
+  margin-bottom: 4px;
+}
+
+.listedGoals li {
+  font-size: var(--p-tag);
+  line-height: 1.6;
+}
+
+.listedGoals li::marker {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.listedGoals a {
+  font-size: var(--p-tag);
+  font-weight: 600;
+  color: black;
+}

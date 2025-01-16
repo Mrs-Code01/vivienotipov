@@ -1,0 +1,257 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/viv8.jpg');
+  width: 100%;
+  min-height: 300px;
+  padding: 0 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 4.3rem;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+  letter-spacing: 1.3px;
+}
+
+
+
+.vision {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision img {
+  width: 50%;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+}
+
+.vision div {
+  width: 45%;
+}
+
+.vision div h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.vision div p {
+  line-height: var(--p-line-height);
+  font-size: var(--p-tag);
+}
+
+.vision div .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+/************************/
+/************************/
+/************************/
+.mission {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission img {
+  width: 50%;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+}
+
+.mission div {
+  width: 45%;
+}
+
+.mission div h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.mission div p {
+  line-height: var(--p-line-height);
+  font-size: var(--p-tag);
+}
+
+.mission div .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+/*********************/
+/*********************/
+/*********************/
+.aims {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.aims h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.aims li {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.aims li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.aims li::marker {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.aims .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+.focusAreasContainer {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 0 60px;
+}
+
+.focusAreasTop {
+  margin-bottom: 45px;
+}
+
+.focusAreasTop h2 {
+  font-size: var(--header-2);
+}
+
+.focusAreasTop .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 17px;
+}
+
+.focusAreasTop p {
+  font-size: var(--p-tag);
+}
+
+.focusAreas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 45px;
+}
+
+.focusAreas>div {
+  width: 30%;
+}
+
+.focusAreas>div img {
+  width: 100%;
+  height: 200px;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.focusAreas>div h3 {
+  font-size: var(--header-3);
+  margin: 15px 0 5px;
+}
+
+.focusAreas>div p {
+  font-size: var(--small-text);
+  line-height: var(--p-line-height);
+}
+
+.goals {
+  width: var(--container-width);
+  margin: 0 auto 60px;
+  background-color: black;
+  padding: 50px 0 70px;
+  text-align: center;
+  border-radius: var(--border-radius);
+}
+
+.goals h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.goals a {
+  font-size: var(--a-tag);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  padding: 14px 30px;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+
+.documentContainer {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.documentContainerTop h2 {
+  font-size: var(--header-2);
+  margin-bottom: 15px;
+}
+
+.documentContainerTop .line {
+  width: 90px;
+  border-radius: 3px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 9px 0 50px;
+}
+
+.documents img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+
+.documents a:not(:last-child) {
+  margin-right: 30px;
+}
